@@ -1,0 +1,91 @@
+/* Загальні стилі для всього сайту */
+body {
+    background-image: url('images/background.jpg'); /* Вкажи правильний шлях до твого фону */
+    background-size: cover; /* Фон покриває всю сторінку */
+    background-position: center; /* Центрує фон */
+    background-attachment: fixed; /* Фіксує фон під час прокручування */
+    margin: 0; /* Забирає відступи */
+    padding: 0; /* Забирає відступи */
+    font-family: Arial, sans-serif; /* Шрифт для всього сайту */
+}
+
+/* Стилі для заголовка */
+header {
+    background-color: rgba(0, 0, 0, 0.6); /* Темний напівпрозорий фон */
+    color: white; /* Білий колір тексту */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0; /* Забирає відступи */
+}
+
+/* Стилі для навігації */
+nav ul {
+    list-style: none; /* Прибирає маркери */
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Розташовує елементи в ряд */
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none; /* Без підкреслення */
+    color: white; /* Білий колір тексту */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Стилі для секцій */
+section {
+    padding: 20px;
+    color: white; /* Білий колір тексту */
+}
+
+/* Стилі для секції гравців */
+#players {
+    background-color: rgba(0, 0, 0, 0.6); /* Напівпрозорий фон для секції */
+}
+
+.player-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.player {
+    background: rgba(255, 255, 255, 0.8); /* Легкий білий фон */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+    width: 200px;
+    text-align: center;
+}
+
+.player img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Стилі для новин */
+#news {
+    background-color: rgba(0, 0, 0, 0.6); /* Напівпрозорий фон для новин */
+}
+
+#news-container p {
+    margin: 10px 0;
+}
+
+/* Стилі для футера */
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Темний фон для футера */
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
