@@ -1,6 +1,6 @@
 /* Загальні стилі для всього сайту */
 body {
-    background-image: url('images/background.jpg'); /* Вкажи правильний шлях до твого фону */
+    background-image: url('icloud drive/background.jpg'); /* Вкажи правильний шлях до твого фону */
     background-size: cover; /* Фон покриває всю сторінку */
     background-position: center; /* Центрує фон */
     background-attachment: fixed; /* Фіксує фон під час прокручування */
